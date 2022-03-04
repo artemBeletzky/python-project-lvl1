@@ -13,3 +13,5 @@ publish:
 package-install:
 	python -m pip install dist/*.whl
 
+lint:
+	poetry run flake8 brain_games
