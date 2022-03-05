@@ -3,4 +3,4 @@
   on: [push]
   jobs:
     call-workflow-1-in-local-repo:
-      uses: python-project-lvl1/.github/workflows/build.yml
+      uses: python-project-lvl1/.github/workflows/build.yml@1
