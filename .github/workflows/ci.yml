@@ -2,7 +2,11 @@
 
   on: [push]
   jobs:
-    build:
+    build_and_lint:
       uses: artemBeletzky/python-project-lvl1/.github/workflows/build.yml@main
     lint:
-      run: make lint
+      runs-on: macos-latest
+      needs: build_and_lint
+      steps:
+        - name: lint
+          run: make lint
