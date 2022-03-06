@@ -10,8 +10,8 @@ def congratulate(name):
 
 
 def notify_wrong_answer(name, correct_answer, user_answer):
-    print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'. "
-          f"Let's try again, {name}!")
+    print(f"'{user_answer}' is wrong answer ;(. Correct answer"
+          f" was '{correct_answer}'. Let's try again, {name}!")
 
 
 def brain_even(name):
