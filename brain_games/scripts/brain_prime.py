@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
-from ..games.even import even
+from ..games.prime import prime
 
 
 def main():
-    even()
+    prime()
 
 
 if __name__ == "__main__":

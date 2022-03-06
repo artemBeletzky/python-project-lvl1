@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
-from ..games.even import even
+from ..games.calc import calc
 
 
 def main():
-    even()
+    calc()
 
 
 if __name__ == "__main__":

@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
-from ..games.even import even
+from ..games.gcd import gcd
 
 
 def main():
-    even()
+    gcd()
 
 
 if __name__ == "__main__":

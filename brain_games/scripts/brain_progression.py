@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
-from ..games.even import even
+from ..games.progression import prog
 
 
 def main():
-    even()
+    prog()
 
 
 if __name__ == "__main__":
