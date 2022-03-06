@@ -3,7 +3,7 @@ name: build-and-lint
 on: push
 
 jobs:
-  build:
+  build-and-lint:
     runs-on: macos-latest
     strategy:
       matrix:
