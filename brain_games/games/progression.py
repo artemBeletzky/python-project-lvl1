@@ -6,7 +6,7 @@ def generate_progression(starting_point, step, length):
     progression = []
     stop = starting_point + (step * length)
     for i in range(starting_point, stop, step):
-        progression.append(i)
+        progression.append(str(i))
     return progression
 
 
@@ -18,7 +18,7 @@ def generate_round():
     hidden_element_index = random.randrange(len(progression))
     answer = progression[hidden_element_index]
     progression[hidden_element_index] = '..'
-    question = str(progression)
+    question = " ".join(progression)
     return question, str(answer)
 
 
